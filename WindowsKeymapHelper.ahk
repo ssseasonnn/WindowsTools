@@ -33,14 +33,14 @@ return
     Send {end}
 return
 
-; Ctrl + 鼠标滚轮上  向左切换系统桌面
-^WheelUp::
+; Alt + 鼠标滚轮上  向左切换系统桌面
+!WheelUp::
 send ^#{Left}
 sleep ,200
 return
 
-; Ctrl + 鼠标滚轮下 向右切换系统桌面
-^WheelDown::
+; Alt + 鼠标滚轮下 向右切换系统桌面
+!WheelDown::
 send ^#{Right}
 sleep ,200
 return
